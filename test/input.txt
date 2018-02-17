@@ -149,6 +149,18 @@
   list
 
 ##########################################################
+# test sort command
+##########################################################
+
+  # sort alphabetically
+  add ddd p/1111111 e/ddd@ddd.com a/111, kent ridge, #01-01
+  add bbb p/2222222 e/bbb@bbb.com a/222, kent ridge, #02-02
+  add ccc p/3333333 e/ccc@ccc.com a/333, kent ridge, #03-03
+  add aaa p/4444444 e/aaa@aaa.com a/444, kent ridge, #04-04
+  sort
+  clear
+
+##########################################################
 # test exit command
 ##########################################################
 
